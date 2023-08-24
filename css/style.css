@@ -1,0 +1,85 @@
+header {
+  background-image: url(../Images/bg-2.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.56) !important;
+  height: 100vh;
+  width: 100vw;
+}
+.logoh {
+  mix-blend-mode: hard-light;
+}
+.fstyle {
+  font-family: "Anton", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-weight: 1000;
+  color: gray;
+  letter-spacing: 3px !important;
+}
+.fstyle2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow";
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+  transition: 0.5s;
+  font-weight: 500;
+}
+a:hover {
+  color: red !important;
+  border-bottom: 2px solid red;
+  transition: 0.5s;
+}
+.boxup {
+  margin-top: -50px;
+  box-shadow: 5px 5px 5px black;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 3%;
+}
+.owl-dot {
+  position: relative;
+  top: -51170px;
+  display: inline-block;
+  height: 6px !important;
+  width: 60px !important;
+  background-color: #222 !important;
+  opacity: 0.8;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: rgb(243, 15, 15) !important;
+}
+.cardbg {
+  border: none !important;
+}
+.thambal {
+  height: 150px;
+  width: 80px;
+}
+
+@media (min-width: 300px) and (max-width: 560px) {
+  .midea {
+    display: flex;
+    flex-direction: column;
+  }
+  .map {
+    width: 350px !important;
+  }
+}
+@media (min-width: 560px) and (max-width: 820px) {
+  .map {
+    width: 800px !important;
+  }
+}
+@media (min-width: 820px) and (max-width: 1200px) {
+  .map {
+    width: 1000px !important;
+  }
+}
